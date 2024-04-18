@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+nav a:hover{
+    color:darkslateblue;
+    text-decoration: underline;
+}
+
+/*Formulario*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    display: relative;
+    padding: 60px 0;
+}
+
+
+form label, form legend{
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 30px;
+    padding: 10px 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+fieldset{
+    border: none;
+}
+
+
+.radio{
+    
+    margin: 0 10px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.grupo-opcoes{
+    margin: 30px 0;
+}
+
+.opcoes{
+    padding: 5px 90px;
+}
+
+#enviar{
+    width: 20%;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: absolute;
+    right: 0px;
+    background: #FFA500;
+    color: white;
+    border: 1px solid #FF8C00;
+    padding: 13px 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: darkorange;
+    transform:rotate(360deg) scale(1.2);
+    
+}
+
+table{
+    margin: 20px 0 40px;
+    border-collapse: collapse;
+}
+
+thead{
+    
+    background: #555;
+    color: #ffff;
+    font-weight: bold;
+    
+}
+
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background: #000000;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
